@@ -1,0 +1,12 @@
+@import 'config/base';
+@import 'config/break-points';
+@import 'config/mixin';
+@import 'config/reset';
+
+@import 'components/header';
+@import 'components/footer';
+
+@import 'routes/headerNavLink';
+
+@import 'views/landing';
+@import 'views/courses';

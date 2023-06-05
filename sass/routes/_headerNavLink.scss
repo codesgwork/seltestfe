@@ -1,0 +1,10 @@
+.headerNavLink {
+  grid-column: 3/4;
+  & > * {
+    margin-right: 2rem;
+  }
+}
+.skyinnk{
+  color: #2d2de5;
+  text-decoration: underline;
+}

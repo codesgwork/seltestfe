@@ -1,0 +1,23 @@
+.header {
+  // margin: 3rem auto;
+  // max-width: 80%;
+  display: grid;
+  grid-template-columns: 10rem 20rem 1fr 10rem;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 5px;
+  padding: 3rem 0;
+  background-color: #fff;
+
+  .logo {
+    grid-column: 2/3;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  @include respond(ebookport) {
+    grid-template-columns: 2rem 20rem 1fr 2rem;
+    gap: 2rem;
+  }
+}
